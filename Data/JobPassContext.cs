@@ -1,3 +1,4 @@
+using JobPass.Api.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace JobPass.Api.Data;
@@ -9,5 +10,5 @@ public class JobPassDbContext : DbContext
     {
     }
 
-    // DbSets virão aqui depois
+    public DbSet<User> Users => Set<User>();
 }
