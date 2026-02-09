@@ -1,3 +1,7 @@
+// DbContext for JobPass application
+// Responsible for managing User entities using EF Core
+// Use SQLite and keep configuration minimal for MVP
+
 using JobPass.Api.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 

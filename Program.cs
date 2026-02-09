@@ -1,3 +1,7 @@
+// Configure EF Core with SQLite
+// Database should be local and simple (jobpass.db)
+// Register JobPassDbContext in DI container
+
 using JobPass.Api.Data;
 using Microsoft.EntityFrameworkCore;
 
